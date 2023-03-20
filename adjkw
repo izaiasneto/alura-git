@@ -1,0 +1,85 @@
+[33mcommit f1b3e1a86d8cd74256cd8391cfe346d43cb39576[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mlocal/master[m[33m)[m
+Author: Ana <ana@gmail.com>
+Date:   Mon Mar 20 09:32:51 2023 -0300
+
+    renomeou cursos
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex b0cab78..645abd6 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -9,7 +9,7 @@[m
+         <li>Vagrant</li>[m
+         <li>Docker</li>[m
+         <li>Ansible</li>[m
+[31m-        <li>Integração Contínua</li>[m
+[32m+[m[32m        <li>Integração Contínua: Maturidade e produtividade no Desenvolvimento de Software</li>[m
+     </ul>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit 561cb695421f1e8027fb9f829540c9cf98f37585[m
+Author: Izaias Neto <izaias.neto@engeselt.com.br>
+Date:   Mon Mar 20 08:30:21 2023 -0300
+
+    Adicionando .gitignore
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..aa61ca1[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mide-config[m
+\ No newline at end of file[m
+
+[33mcommit f653869cbbd08f3a1abfd3747b187fe67e787713[m
+Author: Izaias Neto <izaias.neto@engeselt.com.br>
+Date:   Mon Mar 20 08:16:01 2023 -0300
+
+    Acento adicionado
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex b44f28c..b0cab78 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -9,7 +9,7 @@[m
+         <li>Vagrant</li>[m
+         <li>Docker</li>[m
+         <li>Ansible</li>[m
+[31m-        <li>Integração Continua</li>[m
+[32m+[m[32m        <li>Integração Contínua</li>[m
+     </ul>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit 7645013acfece952f395bcd0077b833cd4799ad2[m
+Author: Izaias Neto <izaias.neto@engeselt.com.br>
+Date:   Mon Mar 20 08:14:59 2023 -0300
+
+    Criando arquivo index.html com lista de cursos
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b44f28c[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m        <meta charset="UTF-8">[m
+[32m+[m[32m        <title>Cursos Alura</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m        <li>Vagrant</li>[m
+[32m+[m[32m        <li>Docker</li>[m
+[32m+[m[32m        <li>Ansible</li>[m
+[32m+[m[32m        <li>Integração Continua</li>[m
+[32m+[m[32m    </ul>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
